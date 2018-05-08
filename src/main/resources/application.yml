@@ -1,0 +1,12 @@
+my:
+  name: zll
+  age: 18
+  number: ${random.int}
+  uuid: ${random.uudi}
+  max: ${random.int(10)}
+  value: ${random.value}
+  gretting: hi,i'm ${my.name}
+
+spring:
+  profiles:
+    active: test
